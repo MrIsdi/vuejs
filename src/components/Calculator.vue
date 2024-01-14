@@ -39,9 +39,9 @@
     })
 </script>
 <template>
-    <div class="bg-[#112D4E] h-screen">
-        <div class="flex justify-center">
-            <div class="basis-1/3 bg-[#3F72AF] p-10 rounded-2xl">
+    <div class="bg-[#112D4E] h-screen flex justify-center items-center">
+        <div class="flex justify-center w-full">
+            <div class="basis-full md:basis-1/4  bg-[#3F72AF] p-10 rounded-2xl">
                 <form action="">
                     <input type="text" name="" id="" class="w-full h-20 rounded-2xl text-4xl text-end pe-3" v-bind:value="value" />
                     <div class="grid grid-cols-4 gap-4 mt-4">
